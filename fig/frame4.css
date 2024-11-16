@@ -1,0 +1,204 @@
+.frame4-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame4-frame4 {
+  width: 504px;
+  height: 615px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame4-rectangle32 {
+  top: 0px;
+  left: 0px;
+  width: 505px;
+  height: 95px;
+  position: absolute;
+}
+.frame4-barrausuario1 {
+  top: 234px;
+  left: 95px;
+  width: 317px;
+  height: 57px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.frame4-text1 {
+  top: 14px;
+  left: 48px;
+  color: rgba(72, 72, 72, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame4-barrausuario2 {
+  top: 345px;
+  left: 95px;
+  width: 317px;
+  height: 57px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.frame4-text2 {
+  top: 14px;
+  left: 90px;
+  color: rgba(72, 72, 72, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame4-logo {
+  top: 9px;
+  left: 44px;
+  width: 396px;
+  height: 76.52338409423828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame4-rightarrow1 {
+  top: 0px;
+  left: 296.2257385253906px;
+  width: 37px;
+  height: 38px;
+  position: absolute;
+}
+.frame4-fastdelivery1 {
+  top: 2.040623664855957px;
+  left: 323px;
+  width: 73px;
+  height: 74px;
+  position: absolute;
+}
+.frame4-vector {
+  top: 16.329174041748047px;
+  left: 0px;
+  width: 323px;
+  height: 56px;
+  position: absolute;
+}
+.frame4-botoneliminar {
+  top: 456px;
+  left: 165px;
+  width: 177px;
+  height: 57px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-color: rgba(34, 32, 85, 1);
+}
+.frame4-text3 {
+  top: 14px;
+  left: 41px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame4-text4 {
+  top: 146px;
+  left: 155px;
+  color: rgba(72, 72, 72, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame4-group16 {
+  top: 10px;
+  left: 462px;
+  width: 31px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 1);
+}
+.frame4-text5 {
+  color: #ff0000;
+}
+@media(max-width: 767px) {
+  .frame4-botoneliminar {
+    border-radius: var(--dl-radius-radius-buttonradius);
+  }
+  .frame4-group16 {
+    border-radius: var(--dl-radius-radius-cardradius);
+  }
+  .frame4-text5 {
+    color: #ff0000;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.frame4-barrausuario1 input,
+.frame4-barrausuario2 input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Inter;
+  font-weight: 300;
+  color: rgba(72, 72, 72, 1);
+  padding: 14px 48px;
+  align-items: center;
+}
+
+.frame4-barrausuario1 input::placeholder,
+.frame4-barrausuario2 input::placeholder {
+  color: rgba(72, 72, 72, 1);
+}
+
+.frame4-botoneliminar {
+  cursor: pointer;
+}
